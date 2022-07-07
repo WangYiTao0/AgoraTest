@@ -17,8 +17,10 @@ namespace AgoraTest
         private string PlaySceneName = "VideoScene";
         
         [SerializeField]
+        //5db066d0a6ad438b915b0c495a541bbb
         public string _appID = "your_appid";
         [SerializeField]
+        //006859b7b546c1b4984814b3676ed5bea7bIAARtjFp/FQfBHRvrri5o+Qxm+rUw9Y2I1VGRsw9Rla1NNJjSIgAAAAAEACZ/16C0uLHYgEAAQDR4sdi
         private string _token = "your_token";
         private void Awake()
         {

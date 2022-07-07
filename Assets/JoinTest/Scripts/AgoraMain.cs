@@ -180,7 +180,7 @@ namespace AgoraTest
             float xPos = Random.Range(videoViewOffset - Screen.width / 2f, Screen.width / 2f - videoViewOffset);
             float yPos = Random.Range(videoViewOffset, Screen.height / 2f - videoViewOffset);
             go.transform.localPosition = new Vector3(xPos, yPos, 0f);
-            go.transform.localScale = new Vector3(3f, 4f, 1f);
+            go.transform.localScale = new Vector3(4f, 3f, 1f);
 
             // configure videoSurface
             VideoSurface videoSurface = go.AddComponent<VideoSurface>();
